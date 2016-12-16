@@ -1,0 +1,300 @@
+@font-face {
+	font-family: "BEBAS"
+	src: url(BEBAS__.TTF) format("truetype");
+}
+
+/*page css */
+/*html {
+	padding: 100px;
+	padding-top: 0;
+	padding-bottom: 0;
+}*/
+
+footer img {
+	width: 75px;
+	height: 75px;
+	float: left;
+}
+
+footer p {
+	font-family: helvetica;
+	position: absolute;
+	font-size: 1.6em;
+	margin-left: 80px;
+}
+
+#circle {
+	width: 350px;
+	height: 350px;
+	float: right;
+}
+/* jumbotron */
+
+.jumbotron {
+	background-color: #f26649;
+}
+
+.jumbotron h1 {
+	color: white;
+	padding-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.jumbotron img {
+	width: 325px;
+	height: 325px;
+	float: right;
+}
+
+
+/* body css */
+
+/*squars */
+
+#squars {
+	margin: 6em;
+}
+
+#squars h3, h5{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: #f26649;
+}
+
+#squars p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.3em;
+	color: grey;
+}
+
+#elec {
+	border-radius: 25px;
+	background: lightgrey;
+}
+
+#deliv {
+	border-radius: 25px;
+	padding: 20px;
+	background: lightsalmon;
+}
+
+#reg {
+	border-radius: 25px;
+	padding: 20px;
+	background: lightblue;
+}
+
+#glob {
+	border: solid lightgrey 2px;
+	border-radius: 25px;
+	padding: 20px;
+	background: white;
+}
+
+
+
+#calc a{
+	text-decoration: none;
+	color: grey;
+}
+
+
+ #calc {
+	 clear: left;
+ }
+#calclogo {
+	clear: right;
+	width: 300px;
+	height: 300px;
+}
+/*table */
+
+#table {
+	border: solid darkgrey 2px;
+	border-width: auto;
+	box-shadow: 2px 7px 5px lightgrey;
+	padding: 20px;
+	margin-left: 10rem;
+}
+
+#table h1 {
+	background-color: #f26649;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2.7px;
+}
+
+#table h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#table border {
+	max-width: 15%;
+}
+
+#table hr {
+	border-bottom: solid black 1px;
+	max-width: 100%;
+}
+
+#acount h4{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#acount p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.3em;
+}
+
+#elec2 {
+	border-radius: 25px;
+	padding: 0px;
+	background: lightgrey;
+}
+
+#elec2 h3{
+	font-size: 1.3em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: #f26649;
+	letter-spacing: 2px;
+	padding: 5px;
+	padding-left: 7px;
+}
+
+#deliv2 {
+	border-radius: 25px;
+	padding: 0px;
+	background: #ffeceb;
+}
+
+#deliv2 h3 {
+	font-size: 1.3em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: #f26649;
+	letter-spacing: 2px;
+	padding: 5px;
+	padding-left: 7px;
+}
+
+#reg2 {
+	border-radius: 25px;
+	padding: 0px;
+	background: #d9f4fa;
+}
+
+#reg2 h3{
+	font-size: 1.3em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: #f26649;
+	letter-spacing: 2px;
+	padding: 5px;
+	padding-left: 7px;
+}
+
+#debt {
+	border-radius: 25px;
+	padding: 0px;
+}
+
+#debt h3 {
+	font-size: 1.3em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: darkgrey;
+	letter-spacing: 2px;
+	padding: 5px;
+	padding-left: 7px;
+}
+
+#total {
+	background-color: lightgrey;
+	padding: 0px;
+}
+
+#total h2 {
+	font-family: 'PT Sans';
+	letter-spacing: 3px;
+	padding-left: 15px;
+}
+
+#smlbx {
+	border: solid 1px black;
+}
+
+#table p {
+	padding: 1.2px;
+	font-family: 'PT Sans';
+	color: grey;
+}
+
+
+-----------------------------------------------------
+/*second page */
+-----------------------------------------------------
+
+#thick {
+	background: #f26649;
+}
+
+#thick img {
+	height: 150px;
+	width: 150px;
+}
+
+#under {
+	/*color: #f26649;*/
+}
+
+#graph {
+	border-radius: 25px;
+	padding: 20px;
+	background: lightsalmon;
+}
+
+#graph img {
+	width: 450px;
+	margin-left: 200px;
+}
+
+/* periods tabel */
+
+#periods {
+	position: relative;
+	border-radius: 25px;
+	border: 2px solid lightgrey;
+}
+
+#periods h3, h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+/*end of periods table */
+
+#pg2 img {
+	width: 150px;
+	height: 150px;
+	clear: left;
+}
+
+#pg2 h2 {
+	clear: right;
+}
+
+#btm-nav {
+	padding-top: 40px;
+	padding: 20px;
+	margin-left: 150px;
+}
+
+#btm-nav h7 {
+	border-right: : solid 1px lightsalmon;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
