@@ -242,12 +242,9 @@ footer p {
 -----------------------------------------------------
 /*second page */
 -----------------------------------------------------
-
-
-
-
 #thick {
-	background-color: #f26649;
+	padding-top: : 100px;
+	background: lightsalmon;
 }
 
 #thick img {
@@ -255,14 +252,41 @@ footer p {
 	width: 150px;
 }
 
-#thick h1, h2, p {
+#thick h2 {
 	color: black
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#thick p{
+	color: black
+	font-family: 'PT Sans';
+}
+
+#under h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#under h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#under p {
+	font-family: 'PT Sans';
 }
 
 #graph {
 	border-radius: 25px;
 	padding: 20px;
 	background: lightsalmon;
+	max-width: 75%;
+}
+
+#graph h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#graph p {
+	font-family: 'PT Sans';
 }
 
 #graph img {
@@ -276,6 +300,7 @@ footer p {
 	position: relative;
 	border-radius: 25px;
 	border: 2px solid lightgrey;
+	max-width: 35%;
 }
 
 #periods h3, h4 {
@@ -293,6 +318,13 @@ footer p {
 
 #pg2 h2 {
 	clear: right;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#pg2 p {
+	clear: right;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
 }
 
 #btm-nav {
