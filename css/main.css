@@ -30,20 +30,23 @@ footer p {
 }
 /* jumbotron */
 
-.jumbotron {
-	background-color: #f26649;
+#head {
+	color: #f26649;
 }
 
-.jumbotron h1 {
+#head h1 {
 	color: white;
 	padding-left: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #f26649;
+	clear: both;
 }
 
-.jumbotron img {
-	width: 325px;
-	height: 325px;
+#head img {
+	width: 100px;
+	height: 100px;
 	float: right;
+	clear: both;
 }
 
 
@@ -111,7 +114,6 @@ footer p {
 
 #table {
 	border: solid darkgrey 2px;
-	border-width: auto;
 	box-shadow: 2px 7px 5px lightgrey;
 	padding: 20px;
 	margin-left: 10rem;
@@ -239,8 +241,11 @@ footer p {
 /*second page */
 -----------------------------------------------------
 
+
+
+
 #thick {
-	background: #f26649;
+	background-color: #f26649;
 }
 
 #thick img {
@@ -248,8 +253,8 @@ footer p {
 	width: 150px;
 }
 
-#under {
-	/*color: #f26649;*/
+#thick h1, h2, p {
+	color: black
 }
 
 #graph {
